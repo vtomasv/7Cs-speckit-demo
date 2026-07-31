@@ -32,10 +32,10 @@ flowchart LR
     COM --> MAP[Skills de mapeo]
     MAP --> CMP[Spec Compose]
     CMP --> AUD[Spec Audit]
-    AUD --> SPEC[/speckit.specify]
-    SPEC --> CLARIFY[/speckit.clarify]
-    CLARIFY --> PLAN[/speckit.plan]
-    PLAN --> TASKS[/speckit.tasks]
+    AUD --> SPEC["/speckit.specify"]
+    SPEC --> CLARIFY["/speckit.clarify"]
+    CLARIFY --> PLAN["/speckit.plan"]
+    PLAN --> TASKS["/speckit.tasks"]
     TASKS --> CODE[Implementación SDD]
 ```
 
