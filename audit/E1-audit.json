@@ -1,0 +1,64 @@
+{
+  "delivery_id": "E1",
+  "verdict": "valida",
+  "metrics": {
+    "coverage": {
+      "numerator": 262,
+      "denominator": 262,
+      "value": 1
+    },
+    "ambiguity": {
+      "numerator": 94,
+      "denominator": 87,
+      "value": 1.0804597701149425
+    },
+    "technical_contamination": {
+      "mentions": 0,
+      "findings": [],
+      "blacklist": [
+        "Docker",
+        "Docker CLI",
+        "Docker Swarm",
+        "File System",
+        "FileSystem",
+        "Java Spring",
+        "JRE/OpenJDK",
+        "Linux",
+        "Multimedia Storage",
+        "Nginx",
+        "Node.js",
+        "PostgreSQL",
+        "Python",
+        "Python runtime",
+        "u-campus",
+        "u-noticias",
+        "u-papers",
+        "u-pasaporte",
+        "u-proyectos",
+        "Ucampus",
+        "UPasaporte"
+      ]
+    },
+    "verifiability": {
+      "numerator": 50,
+      "denominator": 50,
+      "value": 1
+    }
+  },
+  "sanity_test": {
+    "removed_post_it": "E1-BPS-01",
+    "coverage": 0.9961832061068703,
+    "verdict": "invalida",
+    "passed": true
+  },
+  "findings": {
+    "orphan_ids": [],
+    "extra_annex_ids": [],
+    "duplicate_annex_ids": [],
+    "duplicate_requirement_ids": [],
+    "strict_canonical_fr": {
+      "passing": 26,
+      "total": 50
+    }
+  }
+}

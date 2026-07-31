@@ -1,0 +1,331 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p7",
+  "canvas": "functional",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Bundles & components",
+      "stickies": [
+        {
+          "id": "E1-F7-BC-01",
+          "text": "Integracion consumidor de APIs",
+          "bbox": [
+            155,
+            514,
+            467,
+            687
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-BC-02",
+          "text": "Cliente API u-noticias y u-proyectos",
+          "bbox": [
+            155,
+            758,
+            466,
+            930
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-BC-03",
+          "text": "Cliente API u-campus",
+          "bbox": [
+            155,
+            998,
+            466,
+            1170
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-BC-04",
+          "text": "Normalizador de contenido JSON",
+          "bbox": [
+            155,
+            1252,
+            467,
+            1424
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User inputs",
+      "stickies": []
+    },
+    {
+      "name": "UI-processing inputs",
+      "stickies": []
+    },
+    {
+      "name": "API inputs",
+      "stickies": [
+        {
+          "id": "E1-F7-APII-01",
+          "text": "Query request a u-noticias",
+          "bbox": [
+            689,
+            1494,
+            923,
+            1623
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-APII-02",
+          "text": "Query request a u-proyectos",
+          "bbox": [
+            1022,
+            1494,
+            1255,
+            1623
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-APII-03",
+          "text": "Query request a u-campus",
+          "bbox": [
+            1323,
+            1494,
+            1556,
+            1623
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data objects",
+      "stickies": [
+        {
+          "id": "E1-F7-DO-01",
+          "text": "Proyecto",
+          "bbox": [
+            2237,
+            482,
+            2470,
+            611
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-DO-02",
+          "text": "Noticia",
+          "bbox": [
+            2238,
+            672,
+            2470,
+            800
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-DO-03",
+          "text": "Evento",
+          "bbox": [
+            2237,
+            884,
+            2470,
+            1013
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-DO-04",
+          "text": "Información de Ucampus",
+          "bbox": [
+            2237,
+            1096,
+            2470,
+            1225
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User visualizations, reports & notifications",
+      "stickies": []
+    },
+    {
+      "name": "UI-processing outputs",
+      "stickies": []
+    },
+    {
+      "name": "API outputs",
+      "stickies": []
+    },
+    {
+      "name": "Technology stack",
+      "stickies": [
+        {
+          "id": "E1-F7-TS-01",
+          "text": "Java Spring",
+          "bbox": [
+            5316,
+            514,
+            5628,
+            686
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Constraints",
+      "stickies": [
+        {
+          "id": "E1-F7-CON-01",
+          "text": "Despliegue on-premise con software gratuito",
+          "bbox": [
+            93,
+            2026,
+            325,
+            2155
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-CON-02",
+          "text": "Tolerancia a fallos en caso de APIs caidas",
+          "bbox": [
+            93,
+            2195,
+            325,
+            2324
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data imports",
+      "stickies": [
+        {
+          "id": "E1-F7-DI-01",
+          "text": "Lectura en BD PostgreSQL",
+          "bbox": [
+            661,
+            2041,
+            894,
+            2169
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data exports",
+      "stickies": [
+        {
+          "id": "E1-F7-DE-01",
+          "text": "Escritura en BD PostgreSQL",
+          "bbox": [
+            3762,
+            2022,
+            3995,
+            2150
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Event handlers",
+      "stickies": []
+    },
+    {
+      "name": "Event triggers",
+      "stickies": []
+    },
+    {
+      "name": "Helpers",
+      "stickies": [
+        {
+          "id": "E1-F7-H-01",
+          "text": "Data-Validator: Librería de validación de esquemas (JSON Schema) para asegurar la integridad post-ingesta",
+          "bbox": [
+            661,
+            3026,
+            894,
+            3154
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-H-02",
+          "text": "Cálculo de indicadores",
+          "bbox": [
+            926,
+            3026,
+            1159,
+            3155
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Jobs",
+      "stickies": [
+        {
+          "id": "E1-F7-J-01",
+          "text": "Consulta automatizada a API u-noticias",
+          "bbox": [
+            2985,
+            3014,
+            3297,
+            3187
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-J-02",
+          "text": "Consulta automatizada a API u-proyectos",
+          "bbox": [
+            3325,
+            3014,
+            3637,
+            3186
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F7-J-03",
+          "text": "Consulta automatizada a API u-campus",
+          "bbox": [
+            3681,
+            3014,
+            3993,
+            3186
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [
+    "User inputs",
+    "UI-processing inputs",
+    "User visualizations, reports & notifications",
+    "UI-processing outputs",
+    "API outputs",
+    "Event handlers",
+    "Event triggers"
+  ],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original.",
+    "El texto de tamaño reducido del post-it E1-F7-H-01 fue verificado mediante recorte del bbox [661, 3026, 894, 3154]."
+  ]
+}

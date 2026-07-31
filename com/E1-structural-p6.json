@@ -1,0 +1,429 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p6",
+  "canvas": "structural",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Data input interfaces to frontend bundles",
+      "stickies": [
+        {
+          "id": "E1-DIFB-01",
+          "text": "UI para Público general",
+          "bbox": [
+            85,
+            530,
+            397,
+            703
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DIFB-02",
+          "text": "UI para Periodistas",
+          "bbox": [
+            438,
+            530,
+            749,
+            703
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DIFB-03",
+          "text": "UI para Académicos y Colaboradores",
+          "bbox": [
+            790,
+            530,
+            1102,
+            702
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DIFB-04",
+          "text": "UI para Funcionarios",
+          "bbox": [
+            1121,
+            530,
+            1433,
+            703
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Frontend bundles",
+      "stickies": [
+        {
+          "id": "E1-FB-01",
+          "text": "CMS Web Backoffice UI",
+          "bbox": [
+            1537,
+            503,
+            1849,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-FB-02",
+          "text": "Portal Web Público UI",
+          "bbox": [
+            1911,
+            503,
+            2224,
+            675
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data output interfaces from frontend bundles",
+      "stickies": [
+        {
+          "id": "E1-DOFFB-01",
+          "text": "UI hacia pantallas de los usuarios",
+          "bbox": [
+            4480,
+            422,
+            4792,
+            595
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DOFFB-02",
+          "text": "UI Panel de consultas de las peticiones de datos",
+          "bbox": [
+            4887,
+            422,
+            5199,
+            594
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data input interfaces to backend bundles",
+      "stickies": [
+        {
+          "id": "E1-DIBB-01",
+          "text": "Peticiones de datos",
+          "bbox": [
+            55,
+            991,
+            367,
+            1163
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DIBB-02",
+          "text": "Respuestas de datos JSON",
+          "bbox": [
+            437,
+            991,
+            749,
+            1163
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Backend bundles",
+      "stickies": [
+        {
+          "id": "E1-BB-01",
+          "text": "Integracion consumidor de APIs",
+          "bbox": [
+            1537,
+            1015,
+            1849,
+            1187
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BB-02",
+          "text": "Ingestor Worker (u-papers)",
+          "bbox": [
+            1911,
+            1015,
+            2223,
+            1187
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BB-03",
+          "text": "CMS Gestor API",
+          "bbox": [
+            2286,
+            1015,
+            2598,
+            1187
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data output interfaces from backend bundles",
+      "stickies": [
+        {
+          "id": "E1-DOBB-01",
+          "text": "Comandos de lectura/escritura a la BD",
+          "bbox": [
+            4446,
+            1040,
+            4758,
+            1213
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DOBB-02",
+          "text": "Requests a APIs externas",
+          "bbox": [
+            4809,
+            1040,
+            5121,
+            1213
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data input interfaces to repository bundles",
+      "stickies": [
+        {
+          "id": "E1-DIRB-01",
+          "text": "Lectura/Escritura de archivos (File I/O)",
+          "bbox": [
+            85,
+            1471,
+            397,
+            1643
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Repository bundles",
+      "stickies": [
+        {
+          "id": "E1-RB-01",
+          "text": "PostgreSQL (Local)",
+          "bbox": [
+            1537,
+            1526,
+            1849,
+            1698
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-RB-02",
+          "text": "Multimedia Storage (File System)",
+          "bbox": [
+            1941,
+            1526,
+            2252,
+            1698
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data output interfaces from repository bundles",
+      "stickies": [
+        {
+          "id": "E1-DORB-01",
+          "text": "Respuestas filas/registros desde la BD",
+          "bbox": [
+            4446,
+            1450,
+            4759,
+            1622
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DORB-02",
+          "text": "Consultas de archivos multimedia",
+          "bbox": [
+            4809,
+            1450,
+            5121,
+            1623
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data input interfaces to platform & infrastructure bundles",
+      "stickies": [
+        {
+          "id": "E1-DIPI-01",
+          "text": "Interfaces de red TCP/IP",
+          "bbox": [
+            85,
+            2026,
+            397,
+            2198
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DIPI-02",
+          "text": "Docker CLI",
+          "bbox": [
+            465,
+            2026,
+            777,
+            2199
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DIPI-03",
+          "text": "Consola de Administracion",
+          "bbox": [
+            817,
+            2026,
+            1129,
+            2199
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Platform & Infrastructure bundles",
+      "stickies": [
+        {
+          "id": "E1-PIB-01",
+          "text": "Configuracion de reverse proxy mediante Nginx",
+          "bbox": [
+            1565,
+            2026,
+            1877,
+            2199
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-PIB-02",
+          "text": "Configuracion de contenedores en Docker",
+          "bbox": [
+            1941,
+            2026,
+            2253,
+            2198
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data output interfaces from platform & infrastructure bundles",
+      "stickies": [
+        {
+          "id": "E1-DOPI-01",
+          "text": "Gestión de tráfico y balanceo",
+          "bbox": [
+            4445,
+            2027,
+            4759,
+            2199
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DOPI-02",
+          "text": "Logs del sistema",
+          "bbox": [
+            4821,
+            2026,
+            5134,
+            2198
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data input interfaces to device bundles",
+      "stickies": []
+    },
+    {
+      "name": "Device bundles",
+      "stickies": []
+    },
+    {
+      "name": "Data output interfaces from device bundles",
+      "stickies": []
+    },
+    {
+      "name": "Constraints",
+      "stickies": [
+        {
+          "id": "E1-SCON-01",
+          "text": "Despliegue On-premise",
+          "bbox": [
+            55,
+            3064,
+            367,
+            3236
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SCON-02",
+          "text": "Licenciamiento",
+          "bbox": [
+            465,
+            3064,
+            777,
+            3236
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SCON-03",
+          "text": "Restricciones de integracion externas",
+          "bbox": [
+            874,
+            3064,
+            1186,
+            3237
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [
+    "Data input interfaces to device bundles",
+    "Device bundles",
+    "Data output interfaces from device bundles"
+  ],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original."
+  ]
+}

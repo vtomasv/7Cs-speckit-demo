@@ -1,0 +1,631 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p1",
+  "canvas": "business_context",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Business products & services",
+      "stickies": [
+        {
+          "id": "E1-BPS-01",
+          "text": "Proyección de identidad y prestigio institucional",
+          "bbox": [
+            125,
+            471,
+            437,
+            643
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BPS-02",
+          "text": "Difusión de contenidos para la comunidad",
+          "bbox": [
+            473,
+            472,
+            785,
+            643
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BPS-03",
+          "text": "Sitio web de contenido dinámico y centralizado",
+          "bbox": [
+            822,
+            471,
+            1134,
+            643
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business units & actors",
+      "groupers": [
+        {
+          "id": "E1-BUA-G1",
+          "label": "Público general",
+          "bbox": [
+            1844,
+            876,
+            2914,
+            1103
+          ]
+        }
+      ],
+      "stickies": [
+        {
+          "id": "E1-BUA-01",
+          "text": "Área de Sistemas",
+          "bbox": [
+            125,
+            903,
+            437,
+            1076
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUA-02",
+          "text": "Área de Desarrollo",
+          "bbox": [
+            473,
+            904,
+            785,
+            1076
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUA-03",
+          "text": "Área de Comunicaciones",
+          "bbox": [
+            809,
+            904,
+            1121,
+            1076
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUA-04",
+          "text": "Dirección del Departamento",
+          "bbox": [
+            1151,
+            904,
+            1463,
+            1076
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUA-05",
+          "text": "Comunidad Universitaria",
+          "bbox": [
+            1508,
+            903,
+            1820,
+            1076
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUA-06",
+          "text": "Futuros estudiantes",
+          "bbox": [
+            1864,
+            904,
+            2176,
+            1075
+          ],
+          "parent": "E1-BUA-G1"
+        },
+        {
+          "id": "E1-BUA-07",
+          "text": "Prensa / Medios",
+          "bbox": [
+            2221,
+            903,
+            2533,
+            1076
+          ],
+          "parent": "E1-BUA-G1"
+        },
+        {
+          "id": "E1-BUA-08",
+          "text": "Industria y Empresas",
+          "bbox": [
+            2577,
+            904,
+            2890,
+            1076
+          ],
+          "parent": "E1-BUA-G1"
+        }
+      ]
+    },
+    {
+      "name": "Business roles",
+      "stickies": [
+        {
+          "id": "E1-BR-01",
+          "text": "Coordinador académico",
+          "bbox": [
+            3016,
+            920,
+            3328,
+            1092
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BR-02",
+          "text": "Comité editorial",
+          "bbox": [
+            3397,
+            920,
+            3709,
+            1092
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BR-03",
+          "text": "Periodista",
+          "bbox": [
+            3755,
+            920,
+            4067,
+            1093
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BR-04",
+          "text": "Diseñador grafico",
+          "bbox": [
+            4145,
+            920,
+            4457,
+            1093
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BR-05",
+          "text": "Estudiantes,memoristas,tesistas,expertos",
+          "bbox": [
+            4517,
+            917,
+            4829,
+            1089
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BR-06",
+          "text": "Académicos e Investigadores",
+          "bbox": [
+            4889,
+            917,
+            5201,
+            1089
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business objects",
+      "stickies": [
+        {
+          "id": "E1-BO-01",
+          "text": "Noticias y Eventos",
+          "bbox": [
+            125,
+            1389,
+            437,
+            1561
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-02",
+          "text": "Fotos y videos",
+          "bbox": [
+            512,
+            1389,
+            824,
+            1561
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-03",
+          "text": "Apariciones en prensa",
+          "bbox": [
+            920,
+            1395,
+            1232,
+            1567
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-04",
+          "text": "Entradas de blog",
+          "bbox": [
+            1327,
+            1396,
+            1639,
+            1567
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-05",
+          "text": "Indicadores de rendimiento",
+          "bbox": [
+            1701,
+            1395,
+            2013,
+            1567
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-06",
+          "text": "Información de colaboradores y académicos",
+          "bbox": [
+            2105,
+            1395,
+            2416,
+            1567
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-07",
+          "text": "Proyectos de investigación",
+          "bbox": [
+            125,
+            1667,
+            437,
+            1840
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BO-08",
+          "text": "Publicaciones científicas (Papers)",
+          "bbox": [
+            512,
+            1668,
+            824,
+            1840
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business processes",
+      "stickies": [
+        {
+          "id": "E1-BP-01",
+          "text": "Redactar entradas de blog",
+          "bbox": [
+            3054,
+            1375,
+            3366,
+            1547
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BP-02",
+          "text": "Extraer noticias, eventos e indicadores",
+          "bbox": [
+            3437,
+            1375,
+            3749,
+            1547
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BP-03",
+          "text": "Diagramar noticias en nuevo formato",
+          "bbox": [
+            3791,
+            1375,
+            4103,
+            1547
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BP-04",
+          "text": "Publicar contenido en monitores",
+          "bbox": [
+            4145,
+            1375,
+            4457,
+            1547
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BP-05",
+          "text": "Publicar galerias de fotos y videos",
+          "bbox": [
+            4517,
+            1374,
+            4829,
+            1547
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BP-06",
+          "text": "Publicar apariciones de prensa",
+          "bbox": [
+            4889,
+            1375,
+            5201,
+            1547
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BP-07",
+          "text": "Leer entradas de blog",
+          "bbox": [
+            5261,
+            1375,
+            5573,
+            1547
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business functions",
+      "stickies": [
+        {
+          "id": "E1-BF-01",
+          "text": "Gestión de noticias y eventos",
+          "bbox": [
+            3037,
+            1807,
+            3349,
+            1979
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BF-02",
+          "text": "Gestión de fotos, videos y prensa",
+          "bbox": [
+            3397,
+            1807,
+            3709,
+            1979
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BF-03",
+          "text": "Gestión de blog y entradas",
+          "bbox": [
+            3791,
+            1807,
+            4103,
+            1979
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BF-04",
+          "text": "Gestión de informacion de funcionarios",
+          "bbox": [
+            4145,
+            1805,
+            4457,
+            1977
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BF-05",
+          "text": "Vinculación con el medio",
+          "bbox": [
+            4499,
+            1805,
+            4811,
+            1977
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BF-06",
+          "text": "Atracción de talento",
+          "bbox": [
+            4854,
+            1805,
+            5165,
+            1977
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business infrastructure & equipment",
+      "stickies": [
+        {
+          "id": "E1-BIE-01",
+          "text": "Monitores instalados en los pasillos",
+          "bbox": [
+            125,
+            2260,
+            437,
+            2432
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BIE-02",
+          "text": "Dispositivos del público general",
+          "bbox": [
+            501,
+            2270,
+            813,
+            2442
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business locations",
+      "stickies": [
+        {
+          "id": "E1-BL-01",
+          "text": "Dependencias de la facultad",
+          "bbox": [
+            125,
+            2696,
+            437,
+            2868
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BL-02",
+          "text": "Facultades de la Universidad de Chile",
+          "bbox": [
+            501,
+            2696,
+            813,
+            2869
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BL-03",
+          "text": "Entorno web donde interactua el publico general",
+          "bbox": [
+            876,
+            2696,
+            1188,
+            2869
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business facilities",
+      "stickies": [
+        {
+          "id": "E1-BFA-01",
+          "text": "Oficinas del DCC",
+          "bbox": [
+            3016,
+            2696,
+            3328,
+            2868
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BFA-02",
+          "text": "Pasillos del departamento",
+          "bbox": [
+            3372,
+            2696,
+            3684,
+            2869
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "System's functional areas",
+      "stickies": [
+        {
+          "id": "E1-SFA-01",
+          "text": "Difusión de noticias y eventos",
+          "bbox": [
+            125,
+            3132,
+            437,
+            3305
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SFA-02",
+          "text": "Interacciones del blog",
+          "bbox": [
+            501,
+            3122,
+            813,
+            3295
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SFA-03",
+          "text": "Gestión de fotos, videos y apariciones en prensa",
+          "bbox": [
+            896,
+            3122,
+            1208,
+            3295
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SFA-04",
+          "text": "Indicadores de rendimiento del DCC",
+          "bbox": [
+            1291,
+            3122,
+            1603,
+            3295
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SFA-05",
+          "text": "Información de funcionarios",
+          "bbox": [
+            1646,
+            3122,
+            1958,
+            3295
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original.",
+    "La plantilla presenta por separado los rótulos literales “Business locations” y “Business facilities”; ambos se conservaron sin fusionarlos."
+  ]
+}

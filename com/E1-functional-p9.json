@@ -1,0 +1,264 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p9",
+  "canvas": "functional",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Bundles & components",
+      "stickies": [
+        {
+          "id": "E1-F9-BC-01",
+          "text": "Ingestor Worker (u-papers)",
+          "bbox": [
+            125,
+            514,
+            437,
+            687
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F9-BC-02",
+          "text": "Modulo ETL",
+          "bbox": [
+            126,
+            740,
+            437,
+            912
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User inputs",
+      "stickies": []
+    },
+    {
+      "name": "UI-processing inputs",
+      "stickies": []
+    },
+    {
+      "name": "API inputs",
+      "stickies": []
+    },
+    {
+      "name": "Data objects",
+      "stickies": [
+        {
+          "id": "E1-F9-DO-01",
+          "text": "Publicación (Paper)",
+          "bbox": [
+            2285,
+            512,
+            2518,
+            640
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F9-DO-02",
+          "text": "Documento publicación",
+          "bbox": [
+            2551,
+            512,
+            2784,
+            640
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F9-DO-03",
+          "text": "Log Extracciones",
+          "bbox": [
+            2830,
+            512,
+            3062,
+            640
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User visualizations, reports & notifications",
+      "stickies": []
+    },
+    {
+      "name": "UI-processing outputs",
+      "stickies": []
+    },
+    {
+      "name": "API outputs",
+      "stickies": []
+    },
+    {
+      "name": "Technology stack",
+      "stickies": [
+        {
+          "id": "E1-F9-TS-01",
+          "text": "Python para procesar datos",
+          "bbox": [
+            5312,
+            488,
+            5624,
+            659
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F9-TS-02",
+          "text": "PostgreSQL",
+          "bbox": [
+            5312,
+            695,
+            5624,
+            867
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Constraints",
+      "stickies": [
+        {
+          "id": "E1-F9-CON-01",
+          "text": "Uso exclusivo de software gratuito o con licencias académicas",
+          "bbox": [
+            102,
+            2013,
+            335,
+            2141
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F9-CON-02",
+          "text": "Ejecutarse On-premise en servidores Linux",
+          "bbox": [
+            112,
+            2200,
+            326,
+            2319
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data imports",
+      "stickies": [
+        {
+          "id": "E1-F9-DI-01",
+          "text": "Lectura de archivos CSV desde Storage",
+          "bbox": [
+            661,
+            2013,
+            894,
+            2141
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data exports",
+      "stickies": [
+        {
+          "id": "E1-F9-DE-01",
+          "text": "Escritura en BBDD de PostgreSQL",
+          "bbox": [
+            3760,
+            2058,
+            4073,
+            2230
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F9-DE-02",
+          "text": "Escritura en FileSystem",
+          "bbox": [
+            4107,
+            2057,
+            4419,
+            2231
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Event handlers",
+      "stickies": [
+        {
+          "id": "E1-F9-EH-01",
+          "text": "Trigger event",
+          "bbox": [
+            662,
+            2543,
+            928,
+            2690
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Event triggers",
+      "stickies": [
+        {
+          "id": "E1-F9-ET-01",
+          "text": "Notificaciones de alerta (si falla la ingesta de datos)",
+          "bbox": [
+            3760,
+            2538,
+            4072,
+            2711
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Helpers",
+      "stickies": []
+    },
+    {
+      "name": "Jobs",
+      "stickies": [
+        {
+          "id": "E1-F9-J-01",
+          "text": "Ejecucion de ingesta programada",
+          "bbox": [
+            3075,
+            3050,
+            3387,
+            3222
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [
+    "User inputs",
+    "UI-processing inputs",
+    "API inputs",
+    "User visualizations, reports & notifications",
+    "UI-processing outputs",
+    "API outputs",
+    "Helpers"
+  ],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original."
+  ]
+}

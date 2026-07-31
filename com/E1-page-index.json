@@ -1,0 +1,95 @@
+{
+  "delivery_id": "E1",
+  "source_pdf": "resources/DIS 2026 _ AS _ Equipo 1.pdf",
+  "total_pages": 11,
+  "pages": [
+    {
+      "page": 1,
+      "evidence": "evidence/E1-p1.jpg",
+      "classification": "in_scope",
+      "title": "Business Context Canvas",
+      "canvas": "business_context",
+      "com": "com/E1-business_context-p1.json"
+    },
+    {
+      "page": 2,
+      "evidence": "evidence/E1-p2.jpg",
+      "classification": "in_scope",
+      "title": "Architectural Context Canvas",
+      "canvas": "architectural_context",
+      "com": "com/E1-architectural_context-p2.json"
+    },
+    {
+      "page": 3,
+      "evidence": "evidence/E1-p3.jpg",
+      "classification": "in_scope",
+      "title": "System Context Canvas",
+      "canvas": "system_context",
+      "com": "com/E1-system_context-p3.json"
+    },
+    {
+      "page": 4,
+      "evidence": "evidence/E1-p4.jpg",
+      "classification": "out_of_scope",
+      "title": "Equipos - E1",
+      "canvas": null,
+      "reason": "Nómina de equipo; el título no pertenece al vocabulario cerrado de canvas 7Cs."
+    },
+    {
+      "page": 5,
+      "evidence": "evidence/E1-p5.jpg",
+      "classification": "out_of_scope",
+      "title": null,
+      "canvas": null,
+      "reason": "Diagrama de contexto/C4; no presenta un título literal del vocabulario cerrado."
+    },
+    {
+      "page": 6,
+      "evidence": "evidence/E1-p6.jpg",
+      "classification": "in_scope",
+      "title": "Structural Canvas",
+      "canvas": "structural",
+      "com": "com/E1-structural-p6.json"
+    },
+    {
+      "page": 7,
+      "evidence": "evidence/E1-p7.jpg",
+      "classification": "in_scope",
+      "title": "Functional Canvas",
+      "canvas": "functional",
+      "com": "com/E1-functional-p7.json"
+    },
+    {
+      "page": 8,
+      "evidence": "evidence/E1-p8.jpg",
+      "classification": "in_scope",
+      "title": "Deployment Canvas",
+      "canvas": "deployment",
+      "com": "com/E1-deployment-p8.json"
+    },
+    {
+      "page": 9,
+      "evidence": "evidence/E1-p9.jpg",
+      "classification": "in_scope",
+      "title": "Functional Canvas",
+      "canvas": "functional",
+      "com": "com/E1-functional-p9.json"
+    },
+    {
+      "page": 10,
+      "evidence": "evidence/E1-p10.jpg",
+      "classification": "in_scope",
+      "title": "Functional Canvas",
+      "canvas": "functional",
+      "com": "com/E1-functional-p10.json"
+    },
+    {
+      "page": 11,
+      "evidence": "evidence/E1-p11.jpg",
+      "classification": "out_of_scope",
+      "title": null,
+      "canvas": null,
+      "reason": "Hoja vacía con un marco sin contenido; no presenta un título literal del vocabulario cerrado."
+    }
+  ]
+}

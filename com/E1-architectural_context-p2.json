@@ -1,0 +1,542 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p2",
+  "canvas": "architectural_context",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Stakeholders",
+      "groupers": [
+        {
+          "id": "E1-SH-G1",
+          "label": "Público general",
+          "bbox": [
+            3042,
+            457,
+            4111,
+            684
+          ]
+        }
+      ],
+      "stickies": [
+        {
+          "id": "E1-SH-01",
+          "text": "Dirección del DCC",
+          "bbox": [
+            105,
+            474,
+            417,
+            646
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-02",
+          "text": "Área de Comunicaciones",
+          "bbox": [
+            491,
+            473,
+            803,
+            646
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-03",
+          "text": "Académicos",
+          "bbox": [
+            858,
+            484,
+            1170,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-04",
+          "text": "Funcionarios",
+          "bbox": [
+            1251,
+            484,
+            1563,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-05",
+          "text": "Estudiantes",
+          "bbox": [
+            1625,
+            484,
+            1937,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-06",
+          "text": "Memoristas/Tesistas",
+          "bbox": [
+            1976,
+            484,
+            2288,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-07",
+          "text": "Área de Sistemas",
+          "bbox": [
+            2334,
+            485,
+            2646,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-08",
+          "text": "Área de Desarrollo",
+          "bbox": [
+            2690,
+            484,
+            3002,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SH-09",
+          "text": "Futuros estudiantes",
+          "bbox": [
+            3062,
+            484,
+            3374,
+            656
+          ],
+          "parent": "E1-SH-G1"
+        },
+        {
+          "id": "E1-SH-10",
+          "text": "Prensa / Medios",
+          "bbox": [
+            3419,
+            484,
+            3731,
+            656
+          ],
+          "parent": "E1-SH-G1"
+        },
+        {
+          "id": "E1-SH-11",
+          "text": "Industria y Empresas",
+          "bbox": [
+            3775,
+            484,
+            4087,
+            656
+          ],
+          "parent": "E1-SH-G1"
+        }
+      ]
+    },
+    {
+      "name": "Business strategy",
+      "stickies": [
+        {
+          "id": "E1-BS-01",
+          "text": "Alinear la identidad digital con el prestigio académico real",
+          "bbox": [
+            135,
+            1003,
+            448,
+            1175
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BS-02",
+          "text": "Mejorar la difusión institucional",
+          "bbox": [
+            521,
+            1003,
+            833,
+            1175
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BS-03",
+          "text": "Gestionar contenidos de manera centralizada y eficiente",
+          "bbox": [
+            902,
+            999,
+            1214,
+            1171
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "IT strategy",
+      "stickies": [
+        {
+          "id": "E1-ITS-01",
+          "text": "Proveer una plataforma tecnológica centralizada",
+          "bbox": [
+            2999,
+            1009,
+            3311,
+            1182
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-ITS-02",
+          "text": "Gestionar el control sobre la arquitectura",
+          "bbox": [
+            3378,
+            999,
+            3690,
+            1171
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-ITS-03",
+          "text": "La plataforma facilite la operación y la gestión proactiva",
+          "bbox": [
+            3757,
+            999,
+            4069,
+            1171
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business goals & drivers",
+      "stickies": [
+        {
+          "id": "E1-BGD-01",
+          "text": "Centralización de la gestión",
+          "bbox": [
+            105,
+            1513,
+            417,
+            1685
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BGD-02",
+          "text": "Facilitar el acceso y mejorar la experiencia de navegación",
+          "bbox": [
+            465,
+            1513,
+            777,
+            1685
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BGD-03",
+          "text": "Reducir duplicidad",
+          "bbox": [
+            812,
+            1513,
+            1124,
+            1685
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BGD-04",
+          "text": "Dependencia de procesos manuales",
+          "bbox": [
+            1175,
+            1513,
+            1488,
+            1685
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BGD-05",
+          "text": "Inconsistencia de información",
+          "bbox": [
+            1532,
+            1513,
+            1845,
+            1685
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BGD-06",
+          "text": "Mejorar la visibilidad",
+          "bbox": [
+            1909,
+            1513,
+            2223,
+            1685
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Technology goals & drivers",
+      "stickies": [
+        {
+          "id": "E1-TGD-01",
+          "text": "Reducir la baja integración del ecosistema",
+          "bbox": [
+            2999,
+            1513,
+            3311,
+            1685
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TGD-02",
+          "text": "Solucionar la falta de estandarizacion tecnológica",
+          "bbox": [
+            3378,
+            1513,
+            3690,
+            1685
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business standards & policies",
+      "stickies": [
+        {
+          "id": "E1-BSP-01",
+          "text": "Equipos de desarrollo inalterables",
+          "bbox": [
+            105,
+            2023,
+            417,
+            2195
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BSP-02",
+          "text": "Adopción exclusiva de herramientas Open-Source y académicas",
+          "bbox": [
+            493,
+            2023,
+            805,
+            2195
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Technology standards & policies",
+      "stickies": [
+        {
+          "id": "E1-TSP-01",
+          "text": "El área de sistemas mantiene el control total de la operacion",
+          "bbox": [
+            3015,
+            2048,
+            3327,
+            2220
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TSP-02",
+          "text": "Servidores de tipo Linux",
+          "bbox": [
+            3378,
+            2050,
+            3690,
+            2223
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TSP-03",
+          "text": "Proxy Nginx",
+          "bbox": [
+            3757,
+            2050,
+            4069,
+            2223
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TSP-04",
+          "text": "BD relacionales PostgreSQL",
+          "bbox": [
+            4135,
+            2050,
+            4447,
+            2223
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TSP-05",
+          "text": "Autenticación a traves del sistema u-pasaporte",
+          "bbox": [
+            4514,
+            2050,
+            4826,
+            2223
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TSP-06",
+          "text": "Disponibilidad de contenedores Docker",
+          "bbox": [
+            4893,
+            2050,
+            5205,
+            2223
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Situational constraints",
+      "stickies": [
+        {
+          "id": "E1-SC-01",
+          "text": "Infraestructura on-premise",
+          "bbox": [
+            105,
+            2606,
+            417,
+            2777
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SC-02",
+          "text": "Sistema u-papers no expone API",
+          "bbox": [
+            479,
+            2606,
+            791,
+            2777
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Business principles",
+      "stickies": [
+        {
+          "id": "E1-BPR-01",
+          "text": "Uso de software gratuito",
+          "bbox": [
+            160,
+            3101,
+            472,
+            3273
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BPR-02",
+          "text": "Proyección digital dinámica y centralizada",
+          "bbox": [
+            522,
+            3102,
+            833,
+            3273
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Technical principles",
+      "stickies": [
+        {
+          "id": "E1-TPR-01",
+          "text": "Desarrollo Global",
+          "bbox": [
+            2999,
+            3101,
+            3311,
+            3273
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TPR-02",
+          "text": "Desarrollo Incremental",
+          "bbox": [
+            3345,
+            3102,
+            3657,
+            3274
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TPR-03",
+          "text": "Libertad en la metodologia a utilizar en el desarrollo de aplicaciones",
+          "bbox": [
+            3724,
+            3102,
+            4036,
+            3274
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TPR-04",
+          "text": "Gobierno centralizado de aplicaciones",
+          "bbox": [
+            4074,
+            3102,
+            4386,
+            3274
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TPR-05",
+          "text": "Consistencia eventual (Decoupling) para lectura rápida",
+          "bbox": [
+            4453,
+            3102,
+            4766,
+            3274
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original."
+  ]
+}

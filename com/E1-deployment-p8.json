@@ -1,0 +1,424 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p8",
+  "canvas": "deployment",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Environments",
+      "stickies": [
+        {
+          "id": "E1-ENV-01",
+          "text": "Entorno de Produccion",
+          "bbox": [
+            95,
+            478,
+            407,
+            651
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Bundles",
+      "stickies": [
+        {
+          "id": "E1-BUN-01",
+          "text": "Portal Web Publico UI",
+          "bbox": [
+            825,
+            448,
+            1137,
+            621
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUN-02",
+          "text": "Ingestor Worker (u-papers)",
+          "bbox": [
+            1162,
+            448,
+            1474,
+            621
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUN-03",
+          "text": "CMS Gestor API",
+          "bbox": [
+            1508,
+            448,
+            1820,
+            621
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUN-04",
+          "text": "CMS Web Backoffice UI",
+          "bbox": [
+            1858,
+            448,
+            2171,
+            621
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-BUN-05",
+          "text": "Integracion consumidor de APIs",
+          "bbox": [
+            2209,
+            448,
+            2521,
+            621
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Middleware",
+      "stickies": [
+        {
+          "id": "E1-MID-01",
+          "text": "Nginx",
+          "bbox": [
+            825,
+            751,
+            1137,
+            923
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-MID-02",
+          "text": "PostgreSQL",
+          "bbox": [
+            1162,
+            751,
+            1474,
+            923
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Runtime",
+      "stickies": [
+        {
+          "id": "E1-RUN-01",
+          "text": "JRE/OpenJDK",
+          "bbox": [
+            825,
+            1054,
+            1137,
+            1225
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-RUN-02",
+          "text": "Python runtime",
+          "bbox": [
+            1189,
+            1054,
+            1501,
+            1225
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-RUN-03",
+          "text": "Node.js",
+          "bbox": [
+            1553,
+            1053,
+            1865,
+            1225
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Orchestration & scheduling",
+      "stickies": [
+        {
+          "id": "E1-ORCH-01",
+          "text": "Docker Swarm",
+          "bbox": [
+            825,
+            1356,
+            1137,
+            1529
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Container runtimes",
+      "stickies": [
+        {
+          "id": "E1-CR-01",
+          "text": "Docker",
+          "bbox": [
+            825,
+            1668,
+            1137,
+            1840
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Operating systems",
+      "stickies": [
+        {
+          "id": "E1-OS-01",
+          "text": "Linux",
+          "bbox": [
+            825,
+            1979,
+            1137,
+            2151
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Virtualization engines",
+      "stickies": [
+        {
+          "id": "E1-VE-01",
+          "text": "Plataforma de virtualización institucional",
+          "bbox": [
+            825,
+            2290,
+            1137,
+            2463
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Cloud abstractions",
+      "stickies": []
+    },
+    {
+      "name": "Hardware",
+      "stickies": [
+        {
+          "id": "E1-HW-01",
+          "text": "Servidores del DCC",
+          "bbox": [
+            825,
+            2904,
+            1137,
+            3077
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "stickies": [
+        {
+          "id": "E1-LOC-01",
+          "text": "Dependencias de la Facultad",
+          "bbox": [
+            825,
+            3211,
+            1137,
+            3383
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Networks",
+      "stickies": [
+        {
+          "id": "E1-NET-01",
+          "text": "Red Interna de la Facultad",
+          "bbox": [
+            4585,
+            484,
+            4897,
+            656
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-NET-02",
+          "text": "Internet Pública",
+          "bbox": [
+            4585,
+            710,
+            4897,
+            881
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-NET-03",
+          "text": "Red Institucional de la Universidad",
+          "bbox": [
+            4585,
+            958,
+            4897,
+            1130
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Installation",
+      "stickies": [
+        {
+          "id": "E1-INST-01",
+          "text": "A cargo del Area de Sistemas",
+          "bbox": [
+            5157,
+            502,
+            5469,
+            674
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-INST-02",
+          "text": "Despliegue automatizado mediante Docker",
+          "bbox": [
+            5157,
+            750,
+            5469,
+            923
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-INST-03",
+          "text": "En nodos especificos de los servidores",
+          "bbox": [
+            5157,
+            1029,
+            5469,
+            1201
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-INST-04",
+          "text": "Verificación de ejecución en variantes de Linux",
+          "bbox": [
+            5157,
+            1293,
+            5469,
+            1465
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Operation",
+      "stickies": [
+        {
+          "id": "E1-OP-01",
+          "text": "Area de Sistemas",
+          "bbox": [
+            5157,
+            2022,
+            5469,
+            2195
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Constraints",
+      "stickies": [
+        {
+          "id": "E1-DCON-01",
+          "text": "Autenticación via u-pasaporte",
+          "bbox": [
+            95,
+            2022,
+            407,
+            2195
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DCON-02",
+          "text": "Restricciones de licenciamiento",
+          "bbox": [
+            95,
+            2290,
+            407,
+            2463
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DCON-03",
+          "text": "Reutilizacion de plataforma",
+          "bbox": [
+            95,
+            2558,
+            407,
+            2729
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DCON-04",
+          "text": "Infraestructura On-Premise",
+          "bbox": [
+            95,
+            2825,
+            407,
+            2997
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DCON-05",
+          "text": "Gobierno de la operacion",
+          "bbox": [
+            95,
+            3094,
+            407,
+            3265
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [
+    "Cloud abstractions"
+  ],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original."
+  ]
+}

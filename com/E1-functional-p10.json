@@ -1,0 +1,396 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p10",
+  "canvas": "functional",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Bundles & components",
+      "stickies": [
+        {
+          "id": "E1-F10-BC-01",
+          "text": "CMS Gestor API",
+          "bbox": [
+            114,
+            487,
+            426,
+            659
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-BC-02",
+          "text": "Gestor de autenticacion",
+          "bbox": [
+            114,
+            744,
+            426,
+            917
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-BC-03",
+          "text": "Gestor de blogs y comentarios",
+          "bbox": [
+            114,
+            967,
+            426,
+            1139
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-BC-04",
+          "text": "Gestor Multimedia",
+          "bbox": [
+            114,
+            1205,
+            426,
+            1377
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User inputs",
+      "stickies": []
+    },
+    {
+      "name": "UI-processing inputs",
+      "stickies": []
+    },
+    {
+      "name": "API inputs",
+      "stickies": [
+        {
+          "id": "E1-F10-APII-01",
+          "text": "Callback de validación (Redirección) desde UPasaporte",
+          "bbox": [
+            683,
+            1539,
+            915,
+            1669
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-APII-02",
+          "text": "Command endpoints para Backoffice",
+          "bbox": [
+            985,
+            1540,
+            1217,
+            1668
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-APII-03",
+          "text": "Command endpoints para Portal Web Público UI",
+          "bbox": [
+            1286,
+            1539,
+            1519,
+            1668
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data objects",
+      "stickies": [
+        {
+          "id": "E1-F10-DO-01",
+          "text": "Token_Persona (Sesion)",
+          "bbox": [
+            2771,
+            872,
+            3005,
+            1000
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-DO-02",
+          "text": "Proyecto",
+          "bbox": [
+            2771,
+            1086,
+            3004,
+            1215
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-DO-03",
+          "text": "Noticia / Evento",
+          "bbox": [
+            2771,
+            1278,
+            3004,
+            1407
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-DO-04",
+          "text": "Indicador",
+          "bbox": [
+            2771,
+            1482,
+            3004,
+            1611
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-DO-05",
+          "text": "Archivos Multimedia",
+          "bbox": [
+            2771,
+            1686,
+            3005,
+            1814
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-DO-06",
+          "text": "Entrada Blog",
+          "bbox": [
+            2771,
+            1889,
+            3004,
+            2018
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-DO-07",
+          "text": "Comentario Blog",
+          "bbox": [
+            2771,
+            2094,
+            3004,
+            2221
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User visualizations, reports & notifications",
+      "stickies": []
+    },
+    {
+      "name": "UI-processing outputs",
+      "stickies": []
+    },
+    {
+      "name": "API outputs",
+      "stickies": [
+        {
+          "id": "E1-F10-APIO-01",
+          "text": "Query endpoints",
+          "bbox": [
+            3782,
+            1539,
+            4014,
+            1668
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Technology stack",
+      "stickies": [
+        {
+          "id": "E1-F10-TS-01",
+          "text": "Python",
+          "bbox": [
+            5315,
+            489,
+            5627,
+            661
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-TS-02",
+          "text": "Node.js",
+          "bbox": [
+            5315,
+            707,
+            5627,
+            879
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-TS-03",
+          "text": "PostgreSQL",
+          "bbox": [
+            5315,
+            948,
+            5627,
+            1120
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Constraints",
+      "stickies": [
+        {
+          "id": "E1-F10-CON-01",
+          "text": "Uso exclusivo de software gratuito o con licencias académicas",
+          "bbox": [
+            93,
+            2012,
+            325,
+            2141
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-CON-02",
+          "text": "Integración obligatoria con UPasaporte (SSO institucional)",
+          "bbox": [
+            93,
+            2167,
+            325,
+            2296
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-CON-03",
+          "text": "Despliegue sobre infraestructura propia",
+          "bbox": [
+            93,
+            2330,
+            325,
+            2459
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data imports",
+      "stickies": [
+        {
+          "id": "E1-F10-DI-01",
+          "text": "Lectura de BBDD",
+          "bbox": [
+            684,
+            2046,
+            996,
+            2219
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Data exports",
+      "stickies": [
+        {
+          "id": "E1-F10-DE-01",
+          "text": "Write repository en BD",
+          "bbox": [
+            3764,
+            2007,
+            3997,
+            2135
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Event handlers",
+      "stickies": [
+        {
+          "id": "E1-F10-EH-01",
+          "text": "Eventos de solicitudes de sesion",
+          "bbox": [
+            683,
+            2537,
+            915,
+            2667
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Event triggers",
+      "stickies": [
+        {
+          "id": "E1-F10-ET-01",
+          "text": "Trigger de notificaciones al usuario",
+          "bbox": [
+            3801,
+            2537,
+            4113,
+            2709
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Helpers",
+      "stickies": []
+    },
+    {
+      "name": "Jobs",
+      "stickies": [
+        {
+          "id": "E1-F10-J-01",
+          "text": "Respaldo automático de la base de datos PostgreSQL y archivos en Multimedia Storage",
+          "bbox": [
+            3009,
+            3054,
+            3321,
+            3226
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-F10-J-02",
+          "text": "Compresion de imagenes al subirse",
+          "bbox": [
+            3357,
+            3054,
+            3669,
+            3227
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [
+    "User inputs",
+    "UI-processing inputs",
+    "User visualizations, reports & notifications",
+    "UI-processing outputs",
+    "Helpers"
+  ],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original."
+  ]
+}

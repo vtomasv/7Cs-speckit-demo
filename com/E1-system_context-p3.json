@@ -1,0 +1,641 @@
+{
+  "source": "resources/DIS 2026 _ AS _ Equipo 1.pdf#p3",
+  "canvas": "system_context",
+  "template": "7Cs v1.1 June 2026",
+  "header": {
+    "system": null,
+    "organization": null,
+    "canvas_name": null,
+    "version": null,
+    "date": null
+  },
+  "sections": [
+    {
+      "name": "Source users",
+      "groupers": [
+        {
+          "id": "E1-SU-G1",
+          "label": "Público general",
+          "bbox": [
+            71,
+            789,
+            1140,
+            1015
+          ]
+        }
+      ],
+      "stickies": [
+        {
+          "id": "E1-SU-01",
+          "text": "Comunidad",
+          "bbox": [
+            73,
+            503,
+            386,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SU-02",
+          "text": "Académicos",
+          "bbox": [
+            435,
+            503,
+            747,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SU-03",
+          "text": "Área de comunicaciones",
+          "bbox": [
+            819,
+            503,
+            1131,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SU-04",
+          "text": "Comite editorial",
+          "bbox": [
+            1144,
+            646,
+            1456,
+            819
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SU-05",
+          "text": "Futuros estudiantes",
+          "bbox": [
+            91,
+            816,
+            403,
+            989
+          ],
+          "parent": "E1-SU-G1"
+        },
+        {
+          "id": "E1-SU-06",
+          "text": "Prensa / Medios",
+          "bbox": [
+            448,
+            816,
+            760,
+            989
+          ],
+          "parent": "E1-SU-G1"
+        },
+        {
+          "id": "E1-SU-07",
+          "text": "Industria y Empresas",
+          "bbox": [
+            804,
+            816,
+            1116,
+            988
+          ],
+          "parent": "E1-SU-G1"
+        }
+      ]
+    },
+    {
+      "name": "User data input interfaces",
+      "stickies": [
+        {
+          "id": "E1-UDII-01",
+          "text": "Galeria de fotos",
+          "bbox": [
+            1525,
+            480,
+            1837,
+            653
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDII-02",
+          "text": "Apariciones en prensa",
+          "bbox": [
+            1864,
+            480,
+            2176,
+            653
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDII-03",
+          "text": "Comentarios para visitantes",
+          "bbox": [
+            2218,
+            480,
+            2530,
+            653
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDII-04",
+          "text": "Redaccion de Blog",
+          "bbox": [
+            2571,
+            480,
+            2883,
+            653
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDII-05",
+          "text": "Consumo de API",
+          "bbox": [
+            1526,
+            772,
+            1837,
+            944
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDII-06",
+          "text": "Redireccionamiento a upasaporte",
+          "bbox": [
+            1865,
+            772,
+            2176,
+            944
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDII-07",
+          "text": "UI Carga manual archivos CSV (u-papers)",
+          "bbox": [
+            2218,
+            772,
+            2530,
+            944
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "User data output interfaces",
+      "stickies": [
+        {
+          "id": "E1-UDOI-01",
+          "text": "Interfaces Web",
+          "bbox": [
+            3040,
+            503,
+            3353,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-UDOI-02",
+          "text": "Blog del departamento",
+          "bbox": [
+            3431,
+            503,
+            3744,
+            675
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Target users",
+      "groupers": [
+        {
+          "id": "E1-TU-G1",
+          "label": "Público general",
+          "bbox": [
+            4494,
+            789,
+            5563,
+            1015
+          ]
+        }
+      ],
+      "stickies": [
+        {
+          "id": "E1-TU-01",
+          "text": "Comunidad",
+          "bbox": [
+            4497,
+            503,
+            4809,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TU-02",
+          "text": "Academicos y colaboradores",
+          "bbox": [
+            4909,
+            503,
+            5221,
+            675
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TU-03",
+          "text": "Futuros estudiantes",
+          "bbox": [
+            4514,
+            816,
+            4827,
+            988
+          ],
+          "parent": "E1-TU-G1"
+        },
+        {
+          "id": "E1-TU-04",
+          "text": "Prensa / Medios",
+          "bbox": [
+            4871,
+            816,
+            5183,
+            989
+          ],
+          "parent": "E1-TU-G1"
+        },
+        {
+          "id": "E1-TU-05",
+          "text": "Industria y Empresas",
+          "bbox": [
+            5227,
+            816,
+            5539,
+            989
+          ],
+          "parent": "E1-TU-G1"
+        }
+      ]
+    },
+    {
+      "name": "Source systems",
+      "stickies": [
+        {
+          "id": "E1-SS-01",
+          "text": "u-noticias",
+          "bbox": [
+            193,
+            1289,
+            507,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SS-02",
+          "text": "u-campus",
+          "bbox": [
+            585,
+            1289,
+            898,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SS-03",
+          "text": "u-proyectos",
+          "bbox": [
+            194,
+            1586,
+            506,
+            1759
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SS-04",
+          "text": "u-pasaporte",
+          "bbox": [
+            586,
+            1586,
+            898,
+            1758
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SS-05",
+          "text": "u-papers",
+          "bbox": [
+            977,
+            1586,
+            1289,
+            1759
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "System data input interfaces",
+      "stickies": [
+        {
+          "id": "E1-SDII-01",
+          "text": "API de u-noticias",
+          "bbox": [
+            1577,
+            1289,
+            1890,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SDII-02",
+          "text": "API de lectura de u-campus",
+          "bbox": [
+            1991,
+            1289,
+            2303,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SDII-03",
+          "text": "API de u-proyectos",
+          "bbox": [
+            2403,
+            1289,
+            2715,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SDII-04",
+          "text": "Async API Query (Worker) (Conectado a las fuentes u-campus, u-noticias y u-proyectos para la ingesta en segundo plano).",
+          "bbox": [
+            1578,
+            1552,
+            1890,
+            1725
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SDII-05",
+          "text": "Auth Callback Endpoint (Redireccionamiento u-pasaporte)",
+          "bbox": [
+            1991,
+            1552,
+            2303,
+            1725
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "System data output interfaces",
+      "stickies": [
+        {
+          "id": "E1-SDOI-01",
+          "text": "Servidores Linux",
+          "bbox": [
+            3070,
+            1289,
+            3383,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SDOI-02",
+          "text": "Page Redirect (Login) (u-pasaporte)",
+          "bbox": [
+            3431,
+            1289,
+            3744,
+            1461
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Target systems",
+      "stickies": [
+        {
+          "id": "E1-TS-01",
+          "text": "Monitores de los pasillos",
+          "bbox": [
+            4497,
+            1289,
+            4809,
+            1461
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TS-02",
+          "text": "Navegadores web",
+          "bbox": [
+            4913,
+            1289,
+            5225,
+            1461
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Source repositories",
+      "stickies": []
+    },
+    {
+      "name": "Repository data input interfaces",
+      "stickies": [
+        {
+          "id": "E1-RDII-01",
+          "text": "Protocolos de subida de archivos",
+          "bbox": [
+            1578,
+            2049,
+            1890,
+            2221
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Repository data output interfaces",
+      "stickies": [
+        {
+          "id": "E1-RDOI-01",
+          "text": "Servidor de archivos estáticos",
+          "bbox": [
+            3040,
+            2049,
+            3352,
+            2221
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Target repositories",
+      "stickies": []
+    },
+    {
+      "name": "Source devices",
+      "stickies": [
+        {
+          "id": "E1-SD-01",
+          "text": "Computadores area comunicaciones",
+          "bbox": [
+            127,
+            2809,
+            439,
+            2981
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-SD-02",
+          "text": "Computadores academicos",
+          "bbox": [
+            530,
+            2809,
+            843,
+            2981
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Device data input interfaces",
+      "stickies": [
+        {
+          "id": "E1-DDII-01",
+          "text": "BDD",
+          "bbox": [
+            1607,
+            2809,
+            1919,
+            2981
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DDII-02",
+          "text": "distintas APIS",
+          "bbox": [
+            1991,
+            2809,
+            2303,
+            2981
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DDII-03",
+          "text": "Navegador Web",
+          "bbox": [
+            2348,
+            2809,
+            2660,
+            2981
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Device data output interfaces",
+      "stickies": [
+        {
+          "id": "E1-DDOI-01",
+          "text": "Navegador Web",
+          "bbox": [
+            3070,
+            2809,
+            3383,
+            2981
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-DDOI-02",
+          "text": "Monitores de los pasillos",
+          "bbox": [
+            3519,
+            2809,
+            3831,
+            2981
+          ],
+          "parent": null
+        }
+      ]
+    },
+    {
+      "name": "Target devices",
+      "stickies": [
+        {
+          "id": "E1-TD-01",
+          "text": "Computadores personales",
+          "bbox": [
+            4497,
+            2809,
+            4809,
+            2981
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TD-02",
+          "text": "dispositivos moviles",
+          "bbox": [
+            4921,
+            2809,
+            5233,
+            2981
+          ],
+          "parent": null
+        },
+        {
+          "id": "E1-TD-03",
+          "text": "Monitores en pasillos",
+          "bbox": [
+            5302,
+            2809,
+            5614,
+            2981
+          ],
+          "parent": null
+        }
+      ]
+    }
+  ],
+  "empty_sections": [
+    "Source repositories",
+    "Target repositories"
+  ],
+  "notes": [
+    "Los cinco campos de cabecera (System, Organization, Canvas, Version y Date) están vacíos en la imagen original.",
+    "El texto de tamaño reducido del post-it E1-SDII-04 fue verificado mediante recorte del bbox [1578, 1552, 1890, 1725]."
+  ]
+}
